@@ -37,5 +37,6 @@ class KataTest extends TestCase
     {
         $solution = new Solution();
         $this->assertFalse($solution->isLeapYear(1997), '1997 is not a leap year');
+        $this->assertFalse($solution->isLeapYear(1800), '1800 is not a leap year');
     }
 }
