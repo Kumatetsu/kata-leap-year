@@ -22,6 +22,16 @@ class KataTest extends TestCase
     /**
      * @test
      * @covers
+     */
+    public function isLeapYear()
+    {
+        $solution = new Solution();
+        $this->assertTrue($solution->isLeapYear(1996), '1996 is a leap year');
+    }
+
+    /**
+     * @test
+     * @covers
     */
     public function isNotLeapYear()
     {
