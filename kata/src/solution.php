@@ -11,8 +11,9 @@ class Solution
         return true;
     }
 
-    public function isLeapYear()
+    public function isLeapYear($year)
     {
+        if ($year % 4 === 0) return true;
         return false;
     }
 }
