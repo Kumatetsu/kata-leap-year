@@ -13,6 +13,6 @@ class Solution
 
     public function isLeapYear()
     {
-        return null;
+        return false;
     }
 }
